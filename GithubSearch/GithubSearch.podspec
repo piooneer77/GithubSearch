@@ -36,8 +36,7 @@ Pod::Spec.new do |spec|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.source_files  = "GithubSearch/**/*"
-  spec.exclude_files = "GithubSearch/*.json"
+  spec.source_files  = "GithubSearch/**/*{.h, .m}"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.frameworks = "Foundation"
