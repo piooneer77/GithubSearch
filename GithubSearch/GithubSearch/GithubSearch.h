@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char GithubSearchVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GithubSearch/PublicHeader.h>
 
+#if __has_include(<GithubSearch/GithubSearch.h>)
+  #import <GithubSearch/GithubSearch.h>
+#endif
 

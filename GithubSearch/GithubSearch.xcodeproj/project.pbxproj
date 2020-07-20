@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		190A8D7524C5BF2C0079F3C0 /* GithubSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D7324C5BF2C0079F3C0 /* GithubSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		190A8D8924C5C78F0079F3C0 /* Repository.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D7C24C5C78E0079F3C0 /* Repository.h */; };
+		190A8D8A24C5C78F0079F3C0 /* Owner.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A8D7D24C5C78E0079F3C0 /* Owner.m */; };
+		190A8D8B24C5C78F0079F3C0 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A8D7E24C5C78E0079F3C0 /* Repository.m */; };
+		190A8D8C24C5C78F0079F3C0 /* Owner.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D7F24C5C78E0079F3C0 /* Owner.h */; };
+		190A8D8E24C5C78F0079F3C0 /* GenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A8D8224C5C78F0079F3C0 /* GenericService.m */; };
+		190A8D8F24C5C78F0079F3C0 /* UserServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D8424C5C78F0079F3C0 /* UserServiceProtocol.h */; };
+		190A8D9024C5C78F0079F3C0 /* UserNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 190A8D8524C5C78F0079F3C0 /* UserNetworkService.m */; };
+		190A8D9124C5C78F0079F3C0 /* UserNetworkService.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D8624C5C78F0079F3C0 /* UserNetworkService.h */; };
+		190A8D9224C5C78F0079F3C0 /* ResponseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D8724C5C78F0079F3C0 /* ResponseProtocol.h */; };
+		190A8D9324C5C78F0079F3C0 /* GenericService.h in Headers */ = {isa = PBXBuildFile; fileRef = 190A8D8824C5C78F0079F3C0 /* GenericService.h */; };
+		F713DA67E01F145546B43EE3 /* Pods_GithubSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A554746C729B3C1BA655CB /* Pods_GithubSearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		190A8D7024C5BF2C0079F3C0 /* GithubSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GithubSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		190A8D7324C5BF2C0079F3C0 /* GithubSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubSearch.h; sourceTree = "<group>"; };
 		190A8D7424C5BF2C0079F3C0 /* GithubSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubSearch-Info.plist"; sourceTree = "<group>"; };
+		190A8D7C24C5C78E0079F3C0 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repository.h; sourceTree = "<group>"; };
+		190A8D7D24C5C78E0079F3C0 /* Owner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Owner.m; sourceTree = "<group>"; };
+		190A8D7E24C5C78E0079F3C0 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repository.m; sourceTree = "<group>"; };
+		190A8D7F24C5C78E0079F3C0 /* Owner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Owner.h; sourceTree = "<group>"; };
+		190A8D8224C5C78F0079F3C0 /* GenericService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericService.m; sourceTree = "<group>"; };
+		190A8D8424C5C78F0079F3C0 /* UserServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserServiceProtocol.h; sourceTree = "<group>"; };
+		190A8D8524C5C78F0079F3C0 /* UserNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserNetworkService.m; sourceTree = "<group>"; };
+		190A8D8624C5C78F0079F3C0 /* UserNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserNetworkService.h; sourceTree = "<group>"; };
+		190A8D8724C5C78F0079F3C0 /* ResponseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseProtocol.h; sourceTree = "<group>"; };
+		190A8D8824C5C78F0079F3C0 /* GenericService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericService.h; sourceTree = "<group>"; };
+		2DD179C5A694C7584682B14A /* Pods-GithubSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch.release.xcconfig"; path = "Target Support Files/Pods-GithubSearch/Pods-GithubSearch.release.xcconfig"; sourceTree = "<group>"; };
+		8F916D890415EE8F56F13BB1 /* Pods-GithubSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubSearch.debug.xcconfig"; path = "Target Support Files/Pods-GithubSearch/Pods-GithubSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		A1A554746C729B3C1BA655CB /* Pods_GithubSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GithubSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F713DA67E01F145546B43EE3 /* Pods_GithubSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17FD8E705412F24EF9F00AC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F916D890415EE8F56F13BB1 /* Pods-GithubSearch.debug.xcconfig */,
+				2DD179C5A694C7584682B14A /* Pods-GithubSearch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		190A8D6624C5BF2C0079F3C0 = {
 			isa = PBXGroup;
 			children = (
 				190A8D7224C5BF2C0079F3C0 /* GithubSearch */,
 				190A8D7124C5BF2C0079F3C0 /* Products */,
+				17FD8E705412F24EF9F00AC6 /* Pods */,
+				BCF68E17C6A8A3A5E7218834 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -46,10 +82,52 @@
 		190A8D7224C5BF2C0079F3C0 /* GithubSearch */ = {
 			isa = PBXGroup;
 			children = (
+				190A8D7B24C5C78E0079F3C0 /* Models */,
+				190A8D8024C5C78F0079F3C0 /* Services */,
 				190A8D7324C5BF2C0079F3C0 /* GithubSearch.h */,
 				190A8D7424C5BF2C0079F3C0 /* GithubSearch-Info.plist */,
 			);
 			path = GithubSearch;
+			sourceTree = "<group>";
+		};
+		190A8D7B24C5C78E0079F3C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				190A8D7C24C5C78E0079F3C0 /* Repository.h */,
+				190A8D7D24C5C78E0079F3C0 /* Owner.m */,
+				190A8D7E24C5C78E0079F3C0 /* Repository.m */,
+				190A8D7F24C5C78E0079F3C0 /* Owner.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		190A8D8024C5C78F0079F3C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				190A8D8224C5C78F0079F3C0 /* GenericService.m */,
+				190A8D8324C5C78F0079F3C0 /* UserService */,
+				190A8D8724C5C78F0079F3C0 /* ResponseProtocol.h */,
+				190A8D8824C5C78F0079F3C0 /* GenericService.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		190A8D8324C5C78F0079F3C0 /* UserService */ = {
+			isa = PBXGroup;
+			children = (
+				190A8D8424C5C78F0079F3C0 /* UserServiceProtocol.h */,
+				190A8D8524C5C78F0079F3C0 /* UserNetworkService.m */,
+				190A8D8624C5C78F0079F3C0 /* UserNetworkService.h */,
+			);
+			path = UserService;
+			sourceTree = "<group>";
+		};
+		BCF68E17C6A8A3A5E7218834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1A554746C729B3C1BA655CB /* Pods_GithubSearch.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +137,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190A8D9124C5C78F0079F3C0 /* UserNetworkService.h in Headers */,
+				190A8D9224C5C78F0079F3C0 /* ResponseProtocol.h in Headers */,
+				190A8D8C24C5C78F0079F3C0 /* Owner.h in Headers */,
+				190A8D9324C5C78F0079F3C0 /* GenericService.h in Headers */,
+				190A8D8F24C5C78F0079F3C0 /* UserServiceProtocol.h in Headers */,
+				190A8D8924C5C78F0079F3C0 /* Repository.h in Headers */,
 				190A8D7524C5BF2C0079F3C0 /* GithubSearch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 190A8D7824C5BF2C0079F3C0 /* Build configuration list for PBXNativeTarget "GithubSearch" */;
 			buildPhases = (
+				1470204BE2429F153CDA778F /* [CP] Check Pods Manifest.lock */,
 				190A8D6B24C5BF2C0079F3C0 /* Headers */,
 				190A8D6C24C5BF2C0079F3C0 /* Sources */,
 				190A8D6D24C5BF2C0079F3C0 /* Frameworks */,
@@ -126,11 +211,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1470204BE2429F153CDA778F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GithubSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		190A8D6C24C5BF2C0079F3C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190A8D9024C5C78F0079F3C0 /* UserNetworkService.m in Sources */,
+				190A8D8A24C5C78F0079F3C0 /* Owner.m in Sources */,
+				190A8D8E24C5C78F0079F3C0 /* GenericService.m in Sources */,
+				190A8D8B24C5C78F0079F3C0 /* Repository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +369,7 @@
 		};
 		190A8D7924C5BF2C0079F3C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F916D890415EE8F56F13BB1 /* Pods-GithubSearch.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -278,6 +393,7 @@
 		};
 		190A8D7A24C5BF2C0079F3C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD179C5A694C7584682B14A /* Pods-GithubSearch.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
