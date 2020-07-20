@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GithubSearch"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "A short summary of GithubSearch."
   spec.description  = "A short description of GithubSearch."
   spec.homepage     = "https://github.com/piooneer77/GithubSearch"
